@@ -5,7 +5,7 @@ console.log(nombre);
 
 
 const productoJSON = localStorage.getItem('productoJSON');
-console.log(JSON.parse( productoJSON ));
+console.log(JSON.parse( productoJSON )); // convirtiendo en objeto nuevamente.
 
 
 const meses = JSON.parse( localStorage.getItem('meses'));
